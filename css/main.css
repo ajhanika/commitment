@@ -1,3 +1,28 @@
+.navbar {
+  overflow: hidden;
+  background-color: rgb(110, 58, 47);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /*Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  text-align: center;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  /* float: left; */
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: rgb(120, 72, 58);
+  color: black;
+}
+
 .gradient {
     animation: pulse 5s infinite;
   }
@@ -69,6 +94,7 @@
 
   .center {
     text-align: center;
+    align-content: center;
   }
 
   .pattern{
@@ -76,9 +102,9 @@
     --bg: #e1e1e1;
   
     background-color: #525C29;
-opacity: 0.8;
-background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
-background-blend-mode: multiply;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
 
     
     /* background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
