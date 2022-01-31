@@ -89,17 +89,6 @@
   max-width: 100%; height: auto 
 }
 
-  .image_ani {
-    animation: 
-      pulse 3s ease infinite alternate, 
-      nudge 5s linear infinite alternate;
-  }
-
-  .center {
-    text-align: center;
-    align-content: center;
-  }
-
   .pattern{
     --stripe: #cfd8dc;
     --bg: #e1e1e1;
@@ -108,7 +97,6 @@
     opacity: 0.8;
     background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
     background-blend-mode: multiply;
-
     
     /* background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
       linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
@@ -135,54 +123,6 @@
       grid-template-rows: 15% 22% 22% 22% 8% 8%;
   }
   
-  .articlefull{
-    background-color:rgb(180,180,180);
-    margin:10px;
-    padding:15px;
-    box-sizing:border-box;
-    text-align:left; /*left, right, center, justify*/
-    grid-column-end: span 12;
-  }
-
-  .articlethird{
-    background-color:rgb(180,180,180);
-	margin:10px;
-	padding:20px;
-	/* box-sizing:border-box; */
-    align-content: center;
-	/* text-align:left; left, right, center, justify */
-	grid-column-end: span 4;
-  grid-auto-rows: minmax(min-content, max-content);
-  }
-  .photo{
-    grid-area: photo;
-    background: yellow;
-  }
-
-  .photo > img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-  }
-
-.articlehalf{
-	background-color:rgb(180,180,180);
-	margin:10px;
-	padding:20px;
-	box-sizing:border-box;
-	text-align:left; /*left, right, center, justify*/
-	grid-column-end: span 6;
-}
-.articlequarter{
-	background-color:rgb(180,180,180);
-	margin:10px;
-	padding:15px;
-	box-sizing:border-box;
-	text-align:left; /*left, right, center, justify*/
-	/* grid-row-start: 3; */
-	grid-column-end: span 3;
-
-}
 
 /* animated cirle square */
 
