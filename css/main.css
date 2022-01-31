@@ -292,6 +292,11 @@
       grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
      /* grid-template-columns: repeat(8, 12.5%);*/
       /*grid-template-rows: 20% 20% 20% 20% 20%;*/
+      background-color: #f7e6f6;
+opacity: 0.2;
+background-image:  linear-gradient(30deg, #8345f7 12%, transparent 12.5%, transparent 87%, #8345f7 87.5%, #8345f7), linear-gradient(150deg, #8345f7 12%, transparent 12.5%, transparent 87%, #8345f7 87.5%, #8345f7), linear-gradient(30deg, #8345f7 12%, transparent 12.5%, transparent 87%, #8345f7 87.5%, #8345f7), linear-gradient(150deg, #8345f7 12%, transparent 12.5%, transparent 87%, #8345f7 87.5%, #8345f7), linear-gradient(60deg, #8345f777 25%, transparent 25.5%, transparent 75%, #8345f777 75%, #8345f777), linear-gradient(60deg, #8345f777 25%, transparent 25.5%, transparent 75%, #8345f777 75%, #8345f777);
+background-size: 16px 28px;
+background-position: 0 0, 0 0, 8px 14px, 8px 14px, 0 0, 8px 14px;
   }
   #container4 {
     width:100%; /*The container will try to fill the entire browser window width*/
