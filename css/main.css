@@ -273,3 +273,15 @@
         /* border: 3px solid green; 
         padding: 10px; */
     }
+
+    .zoom img {
+      /* display:block; */
+      margin: auto;
+      max-width:100%;
+      height:auto;
+      /* border-radius:10px; */
+      transition:transform 0.4s;
+     }
+     .zoom img:hover {
+      transform:scale(1.25) ;
+     }
