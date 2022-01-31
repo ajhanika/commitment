@@ -386,18 +386,18 @@
     @keyframes stretch {
       0% {
         transform: scale(.3);
-        background-color: red;
+        background-color: 525C29;;
         border-radius: 100%;
       }
       50% {
-        background-color: orange;
+        background-color: white;
       }
       100% {
         transform: scale(1.5);
-        background-color: yellow;
+        background-color: #D6E1A7;
       }
     }
-    
+ 
     /* body,
     html {
       height: 100%;
