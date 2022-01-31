@@ -104,4 +104,31 @@
     text-align:left; /*left, right, center, justify*/
     grid-column-end: span 12;
   }
-  
+
+  .articlethird{
+    background-color:rgb(180,180,180);
+	margin:10px;
+	padding:20px;
+	box-sizing:border-box;
+    align-content: center;
+	text-align:left; /*left, right, center, justify*/
+	grid-column-end: span 4;
+}
+.articlehalf{
+	background-color:rgb(180,180,180);
+	margin:10px;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:left; /*left, right, center, justify*/
+	grid-column-end: span 6;
+}
+.articlequarter{
+	background-color:rgb(180,180,180);
+	margin:10px;
+	padding:15px;
+	box-sizing:border-box;
+	text-align:left; /*left, right, center, justify*/
+	/* grid-row-start: 3; */
+	grid-column-end: span 3;
+
+}
