@@ -61,6 +61,9 @@
   .indie_font{
       font-family: 'Indie Flower', cursive;
   }
+  .permanent{
+    font-family: 'Permanent Marker', cursive;
+  }
 
   @keyframes stretch {
     /* declare animation actions here */
@@ -263,13 +266,7 @@
   }
     .halfboxspace{
         /* background-color:rgb(117,145,181, 0.7); */
-        --stripe: #cfd8dc;
-    --bg: #e1e1e1;
-  
-    background-color: #525C29;
-    opacity: 0.8;
-    background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
-    background-blend-mode: multiply;
+        
         margin:20px;
         padding:20px;
         box-sizing:border-box;
