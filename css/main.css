@@ -53,8 +53,8 @@
   }
 
   img {
-    width: 200x;
-    height: 100px;
+    width: 400x;
+    height: 300px;
 }
 
   .image_ani {
@@ -66,3 +66,4 @@
   .center {
     text-align: center;
   }
+
