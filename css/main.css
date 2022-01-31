@@ -96,4 +96,12 @@
       grid-template-rows: 15% 22% 22% 22% 8% 8%;
   }
   
+  .articlefull{
+    background-color:rgb(180,180,180);
+    margin:10px;
+    padding:15px;
+    box-sizing:border-box;
+    text-align:left; /*left, right, center, justify*/
+    grid-column-end: span 12;
+  }
   
