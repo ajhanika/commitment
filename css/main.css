@@ -75,12 +75,18 @@
     --stripe: #cfd8dc;
     --bg: #e1e1e1;
   
-    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    background-color: #525C29;
+opacity: 0.8;
+background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+
+    
+    /* background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
       linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
       linear-gradient(315deg, var(--bg) 25%, transparent 25%),
       linear-gradient(45deg, var(--bg) 25%, transparent 25%);
     background-size: 100px 100px;
-    background-color: var(--stripe);  display: block;
+    background-color: var(--stripe);  display: block; */
 
     margin-left: auto;
     margin-right: auto;
