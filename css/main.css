@@ -1,4 +1,4 @@
-.element {
+.gradient {
     animation: pulse 5s infinite;
   }
   
@@ -12,7 +12,7 @@
   }
   /* #525C29 */
   /* #D6E1A7; */
-.element {
+.gradient {
     width: 100%;
     height: 100%;
     animation: pulse 5s infinite;
