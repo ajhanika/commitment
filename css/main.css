@@ -62,3 +62,7 @@
       pulse 3s ease infinite alternate, 
       nudge 5s linear infinite alternate;
   }
+
+  .center {
+    text-align: center;
+  }
