@@ -372,7 +372,7 @@
       height: 250px;
       width: 250px;
       margin: 0 auto;
-      background-color: red;
+      background-color: #D6E1A7;
       animation-name: stretch;
       animation-duration: 1.5s; 
       animation-timing-function: ease-out; 
@@ -390,7 +390,7 @@
         border-radius: 100%;
       }
       50% {
-        background-color: white;
+        background-color: #525C29;
       }
       100% {
         transform: scale(1.5);
