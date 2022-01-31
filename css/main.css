@@ -246,3 +246,30 @@
     vertical-align: middle;
     align-content: cetner;
   }
+
+  #container {
+    width:100%; /*The container will try to fill the entire browser window width*/
+    max-width:960px; /*the maximum width the container will grow to*/
+    /*height:960px;*/
+    margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
+    /* background-color:rgb(225,225,225); */
+    padding:0px;
+    box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
+  
+      display: grid;
+      grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+     /* grid-template-columns: repeat(8, 12.5%);*/
+      /*grid-template-rows: 20% 20% 20% 20% 20%;*/
+  }
+    .halfboxspace{
+        background-color:rgb(117,145,181, 0.7);
+        margin:20px;
+        padding:20px;
+        box-sizing:border-box;
+        text-align:left; /*left, right, center, justify*/
+        grid-column-end: span 4;
+        /* margin: auto; */
+        /* width: 100%;
+        /* border: 3px solid green; 
+        padding: 10px; */
+    }
