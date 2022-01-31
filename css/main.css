@@ -195,15 +195,7 @@
 	  nudge 5s linear infinite alternate;
 	border-radius: 100%;
   }
-  
-  /* @keyframes pulse {
-	0%, 100% {
-	  background-color: red;
-	}
-	50% {
-	  background-color: orange;
-	}
-  } */
+
   
   @keyframes nudge {
 	0%, 100% {
@@ -218,37 +210,7 @@
 	  transform: translate(0, 0);
 	}
   }
-  
-/*   
-  html, body {
-	height: 100%;
-  }
-  
-  body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  } */
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    align-content: cetner;
-  }
-  
-  /* Create two equal columns that sits next to each other */
-  .column {
-    flex: 50%;
-    padding: 0 4px;
-    align-content: cetner;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    align-content: cetner;
-  }
+
 
   #container {
     width:100%; /*The container will try to fill the entire browser window width*/
