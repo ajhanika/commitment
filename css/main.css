@@ -23,6 +23,11 @@
   color: black;
 }
 
+.center{
+  text-align: center;
+  align-content: center;
+}
+
 .gradient {
     animation: pulse 5s infinite;
   }
